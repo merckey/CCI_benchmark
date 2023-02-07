@@ -1,0 +1,1 @@
+cd ST_A3_GSM4797918/data/ip_dis_sinkhorn2 && nohup python /home/mcc/CCI-main/scripts/prepare_ip_dis_sinkhorn2.py -c ./ST_A3_GSM4797918/data/processed/st_counts.tsv -p ./ST_A3_GSM4797918/data/processed/st_coord.tsv -o ST_A3_GSM4797918/data/ip_dis_sinkhorn2 &

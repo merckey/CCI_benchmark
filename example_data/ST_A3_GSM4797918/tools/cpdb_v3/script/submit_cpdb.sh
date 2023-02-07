@@ -1,0 +1,1 @@
+screen -x cpdb_v3 -p 0 -X stuff "cd ST_A3_GSM4797918 && nohup time -v cellphonedb method statistical_analysis ././data/processed/sc_meta.tsv ././data/processed/sc_norm.tsv --counts-data gene_name --output-path ././tools/cpdb_v3/output --threads 4 --database /home/mcc/.cpdb/releases/v2.0.0/cellphone.db > ././tools/cpdb_v3/script/cpdb_nohup.out 2>&1 &\n"
